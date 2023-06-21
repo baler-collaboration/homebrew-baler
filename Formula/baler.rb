@@ -2,11 +2,11 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Baler < Formula
-    desc ""
-    homepage ""
+    desc "Baler is an open-source machine-learning based compression tool. It was initally developed by Lund University and Manchester University."
+    homepage "https://baler-collaboration.github.io/"
     url "https://github.com/baler-collaboration/baler/archive/refs/tags/v1.0.0.tar.gz"
     sha256 "406769006fab3fb5a1e45b89244a857f10039da31354c447e423eaed08aea545"
-    license ""
+    license "Apache 2.0 License"
   
     # depends_on "cmake" => :build
   
