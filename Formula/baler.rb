@@ -8,7 +8,7 @@ class Baler < Formula
     sha256 "406769006fab3fb5a1e45b89244a857f10039da31354c447e423eaed08aea545"
     license "Apache 2.0 License"
   
-    # depends_on "cmake" => :build
+    depends_on "poetry" => :build
   
     def install
       # ENV.deparallelize  # if your formula fails when building in parallel
